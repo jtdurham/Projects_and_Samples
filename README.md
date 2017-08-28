@@ -7,7 +7,7 @@ Below is a brief description of each file included in this repository:
 
 The Analytics Development Process.docx
 
-This document details how I go through an analytics project. It includs sections for business situtation evaluation, requirements gathering, data preparation, exploratory data analysis, model selectiona and implementation, and a summary of final outcomes. 
+This document details how I go through an analytics project. It includs sections for business situtation evaluation, requirements gathering, data preparation, exploratory data analysis, model selection and implementation, and a summary of final outcomes. 
 
 -- WORK SAMPLES --
 
