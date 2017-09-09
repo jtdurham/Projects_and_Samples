@@ -10,7 +10,7 @@
 
 # Establish system properties and constraint parameters
 
-# Note that a population must be simulated from Tier A before running Tier B. The number of patients simulated shoud be based on expected number of arrivals in Tier B
+# Note that a population must be simulated from Tier A before running Tier B. The number of patients simulated should be based on expected number of arrivals in Tier B
 # The below CSV files are where decision parameters are kept and should be edited to reflect reality or test a hypothesis
 
 #hos_info = read.csv("Hospital ID Simulation Info.csv") #Uncomment to simulate for each hospital. Make sure hospital level for Tier A was set to "HospitalID"
@@ -22,7 +22,7 @@ time_block = 1 #minute
 hos_queue_sim = list()
 components = c("Patients", "Front_Servers", "Triage_Rooms", "Front_Capacities", "Arrival_History")
 
-# Simulate movement through the radiology department for each hopspital
+# Simulate movement through the radiology department for each hospital
 
 for(h in 1:nrow(hos_info))
 {
@@ -84,7 +84,7 @@ for(h in 1:nrow(hos_info))
     advance = F
     to_adjust = numeric(length(front_servers))
     
-    # Until no more servers are available, match arriving/wating patients to servers
+    # Until no more servers are available, match arriving/waiting patients to servers
     
     while(!advance)
     {
