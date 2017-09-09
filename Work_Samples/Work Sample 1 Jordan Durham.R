@@ -192,4 +192,4 @@ b = seq(0, 1, 0.1)
 hist(pits, breaks = b, freq = F, main = "Histogram of PIT Values - Test Data", xlab = "PIT Values")
 plot(ecdf(pits), main = "Empirical CDF of PIT Values - Test Data")
 
-# One could argue that there appears to be a slight "U" shape to the histogram, thus sugessing too narrow of a predeiction distribution
+# One could argue that there appears to be a slight "U" shape to the histogram, thus suggesting too narrow of a prediction distribution
